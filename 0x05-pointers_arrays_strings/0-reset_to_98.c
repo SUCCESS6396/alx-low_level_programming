@@ -1,8 +1,11 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * reset_to_98 - Entry function
- * @n: pointer to in variable type
- * Return: nothing
+ * reset_to_98 - updates an interger value to 98
+ * @n: a pointer to an int that will be updated
+ *
+ * Return: void
  */
 void reset_to_98(int *n)
 {
